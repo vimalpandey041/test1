@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sidenav{
+    width: 0px;
+    height: 100%;
+    background-color: red;
+    overflow: hidden;
+    position: fixed;
+    transition: 0.5s;
+    padding-top: 80px;
+}
+.closenav{
+position: absolute;
+padding: 20px;
+right: 0px;
+top: 0px;
+}
+.opennav{
+position: absolute;
+padding: 20px;
+right: 0px;
+top: 0px;
+}
+.sidenav a{
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: skyblue;
+    border-radius: 12px;
+    width: 100%;
+    margin-left: 30px;
+    margin: 20px;
+    display: flex;
+}
+
+
+
